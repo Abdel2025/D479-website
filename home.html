@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Taniti</title>
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon">    The small icon displayed in the browser tab -->
+    <link rel="stylesheet" href="homestyles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!------------------ Navigation Section -------------------->
+
+    <div class="navbar">
+        <!-- Logo Section -->
+        <a href="home.html" style="text-decoration: none; color: white;"><div class="logo">Taniti island</div></a>
+
+        <!-- Menu Toggle Button -->
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links" id="nav-links">
+            <a href="home.html">Home</a>
+            <a href="Diningfood.html">Dining/Food</a>
+            <a href="Lodging.html">Lodging</a>
+            <a href="Entertainment.html">Entertainment</a>
+            <a href="Transportation.html">Transportation</a>
+            <a href="FAQ.html">FAQ</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <!------------------ top Section -------------------->
+
+    <div class="top-section">
+        <div class="top-text">
+            Welcome to the island of Tanity<br>
+            <p>A Perfect Destination To Have Fun!</p>
+        </div>
+    </div>
+
+    <!------------------ Middle Section -------------------->
+
+    <h1>Taniti Top Attractions</h1>
+    
+    <div class="picture-section">
+        <div class="picture-container">
+            <img src="hotel.jpg" alt="hotel">
+            <p>Hotels By The Beach</p>
+        </div>
+        <div class="picture-container">
+            <img src="walking.jpg" alt="cruise">
+            <p>Fun activities</p>
+        </div>
+        <div class="picture-container">
+            <img src="restaurant.jpg" alt="restaurant">
+            <p>Beautiful Restaurants</p>
+        </div>
+        <div class="picture-container">
+            <img src="museum.jpg" alt="museum">
+            <p>Historical Places</p>
+        </div>
+    </div>
+
+    <h1>Explore the Island</h1>
+
+    <div class="image-row">
+        <div class="image-container">
+            <img src="restaurant2.jpg" alt="Description 1">
+            <div class="overlay">
+                <button onclick="window.location.href='Diningfood.html';" class="overlay-btn">Dining/Food</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="hotel1.jpg" alt="Description 2">
+            <div class="overlay">
+                <button onclick="window.location.href='Lodging.html';" class="overlay-btn">Lodging</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="zip-lining.jpg" alt="Description 3">
+            <div class="overlay">
+                <button onclick="window.location.href='Entertainment.html';" class="overlay-btn">Entertainment</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="taxi.jpg" alt="Description 4">
+            <div class="overlay">
+                <button onclick="window.location.href='Transportation.html';" class="overlay-btn">Transportation</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------- Footer Section ------------------->
+    <div class="footer">
+        <div class="footer-section">
+            <p>Taniti is a small Pacific island under 500 square miles, featuring diverse terrain with beaches, a harbor, rainforests, and a mountainous interior with an active volcano. Its 20,000 residents traditionally relied on fishing and agriculture, but tourism has recently boosted the economy.</p>
+            <input type="text" class="input-box" placeholder="Enter your email">
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+                <p><a href="home.html">Home</a></p>
+                <p><a href="Diningfood.html">Dining/Food</a></p>
+                <p><a href="Lodging.html">Lodging</a></p>
+                <p><a href="Entertainment.html">Entertainment</a></p>
+                <p><a href="Transportation.html">Transportation</a></p>
+                <p><a href="FAQ.html">FAQ</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Legal and Support</h3>
+            <p><a href="#">Terms and Conditions</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Accessibility Information</a></p>
+            <p><a href="#">Support or Help Center link</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Things To Do In Taniti</h3>
+            <p><a href="#">Snorkeling</a></p>
+            <p><a href="#">Helicopter rides</a></p>
+            <p><a href="#">Playing Arcade</a></p>
+            <p><a href="#">Art Galleries</a></p>
+            <p><a href="#">Bowling</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
