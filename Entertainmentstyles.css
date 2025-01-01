@@ -285,6 +285,10 @@ body {
         text-align: center; /* Centers the text and buttons below the image */
     }
 
+    .overlay {
+        display: none; /* Hide overlay on smaller screens */
+    }
+
 }
 
 
