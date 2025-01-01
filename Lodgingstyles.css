@@ -194,6 +194,14 @@ body {
     cursor: pointer;
 }
 
+.picture-container .caption {
+    font-size: 0.5em;
+    color: #777;
+    margin-top: 2px;
+    font-style: italic;
+    text-align: left;
+}
+
 .picture-container img:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }

@@ -172,6 +172,12 @@ body {
     padding: 0 50px;
 }
 
+.picture-container .caption {
+    font-size: 0.5em;
+    color: #777;
+    margin-top: 5px;
+    font-style: italic;
+}
 
 .picture-section {
     display: flex; /* Makes the containers align horizontally */

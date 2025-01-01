@@ -187,6 +187,15 @@ body {
     object-fit: cover; /* Ensures the image scales without distortion */
     cursor: pointer;
 }
+
+.picture-container .caption {
+    font-size: 0.5em;
+    color: #777;
+    margin-top: 2px;
+    font-style: italic;
+    text-align: left;
+}
+
 .picture-container img:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
@@ -236,7 +245,6 @@ h1 {
     position: relative; /* Enables positioning of overlay text */
     width: 200px; /* Adjust as needed */
     height: 250px; /* Keep aspect ratio for square images */
-    overflow: hidden; /* Ensures content stays within bounds */
     flex: 1 1 22%; /* Flexible layout for four images in a row */
     margin: 0 10px; /* Adds spacing between containers */
     text-align: center; /* Centers the text and buttons below the image */
@@ -247,6 +255,14 @@ h1 {
     height: 100%; /* Ensures the image fills the container */
     object-fit: cover; /* Ensures the image scales without distortion */
     cursor: pointer;
+}
+
+.image-container .caption {
+    font-size: 0.5em;
+    color: #777;
+    margin-top: 2px;
+    font-style: italic;
+    text-align: left;
 }
 
 .overlay {
