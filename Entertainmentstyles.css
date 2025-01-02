@@ -278,15 +278,24 @@ body {
     }
 
     .image-container {
-        width: 90%; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
         margin: 20px auto;
-        height: 300px; /* Keep aspect ratio for square images */
+        height: 350px; /* Keep aspect ratio for square images */
         flex: 1 1 22%; /* Flexible layout for four images in a row */
         text-align: center; /* Centers the text and buttons below the image */
     }
 
     .overlay {
-        display: none; /* Hide overlay on smaller screens */
+        opacity: 1;
+    }
+
+    .image-container:hover .overlay {
+        background-color: transparent;
+        opacity: 1; /* Show overlay on hover */
+    }
+
+    .overlay-text {
+        top: 70%;
     }
 
 }
@@ -298,7 +307,7 @@ body {
     padding: 40px 20px;
     background-color: #002b4e; /* Dark background */
     color: white;
-    max-height: 850px;
+    max-height: 900px;
 }
 .footer .footer-section {
     width: 100%;

@@ -331,13 +331,22 @@ h1 {
     }
 
     .image-container {
-        width: 90%; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
         margin: 20px auto;
     }
 
     .overlay {
         opacity: 1;
     }
+
+    .image-container:hover .overlay {
+        background-color: transparent;
+    }
+
+    .overlay-btn {
+        margin-top: 30%;
+    }
+
 }
 
 .footer {
@@ -346,7 +355,7 @@ h1 {
     padding: 40px 20px;
     background-color: #002b4e; /* Dark background */
     color: white;
-    max-height: 850px;
+    max-height: 900px;
 }
 .footer .footer-section {
     width: 100%;
