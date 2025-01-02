@@ -219,7 +219,7 @@ h1 {
     }
 
     .picture-container {
-        width: 90%; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
         margin: 20px auto;
         height: 300px; /* Keep aspect ratio for square images */
         flex: 1 1 22%; /* Flexible layout for four images in a row */
