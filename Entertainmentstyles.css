@@ -216,11 +216,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0; /* Hide overlay initially */
+    opacity: 1; /* Hide overlay initially */
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay on hover */
 }
 
 .image-container:hover .overlay {
-    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay on hover */
+    background-color: rgba(0, 0, 0, 1); /* Dark overlay on hover */
     opacity: 1; /* Show overlay on hover */
 }
 
