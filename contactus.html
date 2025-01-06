@@ -62,9 +62,16 @@
                 <label for="contact">Your Question</label>
                 <input type="text" id="contact" name="contact" placeholder="Enter your question" required>
             </div>
-            <button type="submit" class="submit-btn">Submit</button>
+            <button type="submit" class="submit-btn" id="myButton">Submit</button>
         </form>
     </div>
+
+    <script>
+        // Add a click event listener to the button
+        document.getElementById("myButton").addEventListener("click", function () {
+            alert("Your question has been submitted. We will get back to you soon!");
+        });
+    </script>
 
 
     <!--------------------- Footer Section ------------------->
